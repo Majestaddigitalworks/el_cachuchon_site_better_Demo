@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Cachuchon | Premium Fitteds</title>
+  <meta name="description" content="El Cachuchon premium fitted cap storefront concept." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-bar">
+      <nav class="nav-left" aria-label="Primary">
+        <a href="#featured-drop">Shop</a>
+        <a href="#story">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#top" class="brand-mark">EL CACHUCHON</a>
+      <div class="nav-right">
+        <a href="#contact">Account</a>
+        <button class="icon-btn" type="button" id="openCartBtn" aria-label="Open cart preview">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path stroke-linecap="round" stroke-linejoin="round" d="M3 4h2l2.2 10.2a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 7H7.2"/><circle cx="10" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/></svg>
+          <span class="cart-badge" id="cartCount">0</span>
+        </button>
+        <button class="icon-btn" type="button" aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="6.5"/><path stroke-linecap="round" d="m16 16 4.5 4.5"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-backdrop"></div>
+      <img src="assets/img/logo-bg.jpg" alt="" class="hero-bg-logo" aria-hidden="true" />
+
+      <div class="container hero-inner">
+        <div class="hero-lockup">
+          <div class="floating-brand" id="floatingBrand" aria-hidden="true">
+            <img src="assets/img/hats-cutout.png" alt="" class="brand-hats" />
+            <img src="assets/img/wordmark-cutout.png" alt="" class="brand-wordmark" />
+          </div>
+
+          <div class="hero-copy reveal visible">
+            <p class="tagline">Exclusive Fitteds. No Restocks.</p>
+            <div class="hero-actions">
+              <a class="btn btn-outline" href="#featured-drop">Enter the Vault</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-drop-section" id="featured-drop">
+      <div class="container">
+        <div class="section-label-row reveal">
+          <h2>Featured Drop</h2>
+          <p>Clean, dark, premium. Using your uploaded caps as the live display pieces for now.</p>
+        </div>
+
+        <div class="featured-grid">
+          <article class="product-card reveal" data-product-id="midnight-crown">
+            <div class="product-image-wrap">
+              <img src="assets/img/product-1.jpg" alt="Midnight Crown cap" class="product-image" />
+            </div>
+            <div class="product-meta">
+              <h3>Midnight Crown</h3>
+              <p>$60 <span>— Only 1 Available</span></p>
+              <button class="btn btn-small open-product" type="button">View Details</button>
+            </div>
+          </article>
+
+          <article class="product-card reveal delay-1" data-product-id="la-sample">
+            <div class="product-image-wrap">
+              <img src="assets/img/product-2.jpg" alt="LA Sample cap" class="product-image" />
+            </div>
+            <div class="product-meta">
+              <h3>LA Sample</h3>
+              <p>$60 <span>— Only 1 Available</span></p>
+              <button class="btn btn-small open-product" type="button">View Details</button>
+            </div>
+          </article>
+
+          <article class="product-card reveal delay-2" data-product-id="d-sample">
+            <div class="product-image-wrap">
+              <img src="assets/img/product-3.jpg" alt="D Sample cap" class="product-image" />
+            </div>
+            <div class="product-meta">
+              <h3>D Sample</h3>
+              <p>$60 <span>— Only 1 Available</span></p>
+              <button class="btn btn-small open-product" type="button">View Details</button>
+            </div>
+          </article>
+
+          <aside class="culture-card reveal delay-3" id="story">
+            <p class="eyebrow">Brand story</p>
+            <h3>Built on culture.<br>Rooted in legacy.</h3>
+            <p>Each fitted is hand-selected, dark-toned, and made to feel exclusive. This version keeps your logo in the background while the hats and wordmark float down the page like your mockup.</p>
+            <a href="#archive" class="btn btn-outline btn-small-wide">Explore More</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-strip">
+      <div class="container story-strip-grid reveal">
+        <div>
+          <p class="eyebrow">Store direction</p>
+          <h2>Closer to the layout you wanted, but cleaner and more real-store ready.</h2>
+        </div>
+        <div>
+          <p>This build keeps the luxury black smoke feel, anchors the logo in the background, and turns the hat cards into clickable product modals with size, color, and add-to-cart actions.</p>
+        </div>
+        <div>
+          <ul class="bullet-list">
+            <li>Animated hero that drifts on scroll</li>
+            <li>Clickable product popup with full details</li>
+            <li>Cart counter that updates when hats are added</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="archive-section" id="archive">
+      <div class="container archive-head reveal">
+        <p class="eyebrow">Hat display</p>
+        <h2>More caps in the vault</h2>
+      </div>
+      <div class="container archive-grid">
+        <article class="mini-card reveal" data-product-id="black-vault">
+          <img src="assets/img/product-4.jpg" alt="Black Vault cap" />
+          <div><h3>Black Vault</h3><p>Sample piece — $60</p></div>
+        </article>
+        <article class="mini-card reveal delay-1" data-product-id="hustle-mark">
+          <img src="assets/img/product-5.jpg" alt="Hustle Mark cap" />
+          <div><h3>Hustle Mark</h3><p>Sample piece — $60</p></div>
+        </article>
+        <article class="mini-card reveal delay-2" data-product-id="street-script">
+          <img src="assets/img/product-6.jpg" alt="Street Script cap" />
+          <div><h3>Street Script</h3><p>Sample piece — $48</p></div>
+        </article>
+        <article class="mini-card reveal" data-product-id="la-sample">
+          <img src="assets/img/product-2.jpg" alt="LA Sample cap repeated" />
+          <div><h3>LA Sample</h3><p>Display repeat — $60</p></div>
+        </article>
+        <article class="mini-card reveal delay-1" data-product-id="d-sample">
+          <img src="assets/img/product-3.jpg" alt="D Sample cap repeated" />
+          <div><h3>D Sample</h3><p>Display repeat — $60</p></div>
+        </article>
+        <article class="mini-card reveal delay-2" data-product-id="midnight-crown">
+          <img src="assets/img/product-1.jpg" alt="Midnight Crown repeated" />
+          <div><h3>Midnight Crown</h3><p>Display repeat — $60</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-box reveal">
+        <img src="assets/img/footer-mark.png" alt="El Cachuchon footer mark" class="footer-logo" />
+        <p class="eyebrow">Stay ready</p>
+        <h2>Get notified when the real drop goes live</h2>
+        <form class="signup-form" onsubmit="return fakeSubmit(event)">
+          <input type="email" placeholder="Enter your email" aria-label="Email address" required />
+          <button type="submit" class="btn btn-outline">Join List</button>
+        </form>
+        <p class="microcopy">This signup is still a placeholder. Next step can be Stripe, Shopify, Mailchimp, or a real checkout flow.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"> 
+    <div class="container footer-wrap">
+      <p>© 2026 El Cachuchon — All Rights Reserved storefront</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close product details">×</button>
+      <div class="modal-grid">
+        <div class="modal-media">
+          <img id="modalImage" src="" alt="" />
+        </div>
+        <div class="modal-content">
+          <p class="eyebrow" id="modalBadge">Featured fitted</p>
+          <h2 id="modalTitle">Product Name</h2>
+          <div class="modal-price-row">
+            <span class="modal-price" id="modalPrice">$60</span>
+            <span class="modal-stock" id="modalStock">Only 1 available</span>
+          </div>
+          <p class="modal-description" id="modalDescription"></p>
+
+          <div class="option-group">
+            <span class="option-label">Color</span>
+            <div class="pill-row" id="colorOptions"></div>
+          </div>
+
+          <div class="option-group">
+            <span class="option-label">Size</span>
+            <div class="pill-row" id="sizeOptions"></div>
+          </div>
+
+          <div class="option-group details-grid" id="detailList"></div>
+
+          <div class="modal-actions">
+            <button class="btn btn-solid" type="button" id="addToCartBtn">Add to Cart</button>
+            <button class="btn btn-outline" type="button" data-close-modal>Keep Browsing</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Added to cart</div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
